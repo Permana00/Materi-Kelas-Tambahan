@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+/* hal home */
+/* navbar */
+nav {
+  display: flex;
+  background-image: linear-gradient(black, gray);
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+nav h1 {
+  padding-top: 15px;
+  padding-left: 30px;
+  font-size: 30px;
+}
+.nav {
+  display: flex;
+  width: 400px;
+}
+h3 {
+  padding: 20px;
+  border-radius: 15px;
+}
+h3:hover {
+  background-image: linear-gradient(green, darkblue);
+}
+a {
+  color: aqua;
+}
+
+/* banner */
+.banner {
+  display: flex;
+  height: 95vh;
+  background-image: url(./gambar/banner.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.banner h1 {
+  color: aqua;
+  padding: 50px;
+  margin: auto;
+  border: 1px solid;
+  border-radius: 30px;
+  background-color: rgba(68, 145, 145, 0.247);
+}
+
+/* about */
+.about {
+  padding: 30px;
+  color: aqua;
+  background-color: darkred;
+}
+p {
+  margin-top: 10px;
+}
+
+/* content home */
+.container {
+  padding: 20px;
+  padding-top: 70px;
+  color: aqua;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.container img {
+  height: 300px;
+  width: 200px;
+  margin: 20px;
+  margin-top: 40px;
+  box-shadow: 0 0 20px;
+}
+.container img:hover {
+  transform: translateY(-5%);
+  transition: 0.7s;
+}
+
+/* email */
+.email {
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+.panorama img {
+  height: 450px;
+  width: 630px;
+}
+.sapa {
+  display: flex;
+  width: 100%;
+}
+.input {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+button {
+  margin: 20px auto;
+  width: 100px;
+}
+
+/* footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100px;
+  background-image: linear-gradient(white, black);
+  color: aqua;
+}
+
+/* hal btw */
+.hbtw {
+  color: aqua;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  font-size: 50px;
+}
+
+/* hal contact */
+.container2 {
+  display: flex;
+  height: 76.4vh;
+}
+.card {
+  margin: auto;
+  height: 400px;
+  width: 300px;
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0 10px;
+}
+.card img {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 50px;
+}
+.card h1 {
+  margin-bottom: 60px;
+}
